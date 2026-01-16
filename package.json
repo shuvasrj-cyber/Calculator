@@ -1,0 +1,16 @@
+
+{
+  "name": "omnicalc-engineering",
+  "version": "1.0.0",
+  "description": "Professional Engineering Calculator",
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "scripts": {
+    "build": "mkdir -p www && cp index.html www/ && cp index.tsx www/ && cp types.ts www/ && cp App.tsx www/ && cp -r components www/ && cp -r utils www/ || true"
+  }
+}
